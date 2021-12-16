@@ -13,4 +13,9 @@ describe("Testing Area component", ()=> {
         console.log(result);
         expect(result).toBe(6);
     });
+    test("getSquareArea(null) equals NOT A NUMBER",()=>{
+        const result = Area.getSquareArea(null);
+        console.log(result);
+        expect(result).toBe("Paramaters given must be a number");
+    });
 });

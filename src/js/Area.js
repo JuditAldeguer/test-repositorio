@@ -1,10 +1,17 @@
 /* que recibe un número que indica el lado del cuadrado y retorna el área del mismo.*/
 const getSquareArea = (c) => {
-    return c*c;
+    let result;
+    if (c === Number) {
+        result=c*c;
+    } else{
+        result= "Paramaters given must be a number";
+    }
+    return result;
 };
 getSquareArea();
 
 const getSquareTriangle =(b,h)=>{
+    
    return (b*h)/2;
 };
 getSquareTriangle();
