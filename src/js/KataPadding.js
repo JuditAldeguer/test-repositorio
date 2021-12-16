@@ -1,17 +1,26 @@
-const getPaddingString =(word,givenFinalLentgh,fillingElement)=>{
-    debugger;
-    const wordLenght= word.split('').length;
-     if (wordLenght === givenFinalLentgh){
-         return word;
-     } else if (wordLenght >= givenFinalLentgh){
-         let word;
-        const givenLetters = word.split('', givenFinalLentgh);
-        for (let i = 0; i < givenLetters.length; i++) {
-            const letter = givenLetters[i];
-            word += letter;
-            return word;
-        }
-     }
+const getPaddingString = (word, finalLentgh, fillingElement) => {
+  let neWord;
+  const wordLenght = word.split("").length;
+  debugger;
+  if (wordLenght === finalLentgh) {
+    return word;
+  } else if (wordLenght >= finalLentgh) {
+    const givenLetters = word.split("");
+    for (let i = 0; i < finalLentgh; i++) {
+      debugger;
+      const letter = givenLetters[i];
+      neWord += letter;
+      return neWord;
+    }
+  } else {
+    let filling;
+    for (let i = 0; i < finalLentgh; i++) {
+      debugger;
+      filling = fillingElement;
+      neWord = word + filling;
+    }
+    return neWord;
+  }
 };
 
 export default getPaddingString;
