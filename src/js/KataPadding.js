@@ -1,11 +1,11 @@
-const getPaddingString =(givenString,givenFinalLentgh,fillingElement)=>{
+const getPaddingString =(word,givenFinalLentgh,fillingElement)=>{
     debugger;
-    const wordLenght=givenString.split('').lentgh;
+    const wordLenght= word.split('').length;
      if (wordLenght === givenFinalLentgh){
-         return givenString;
+         return word;
      } else if (wordLenght >= givenFinalLentgh){
          let word;
-        const givenLetters = givenString.split('', givenFinalLentgh);
+        const givenLetters = word.split('', givenFinalLentgh);
         for (let i = 0; i < givenLetters.length; i++) {
             const letter = givenLetters[i];
             word += letter;
