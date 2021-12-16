@@ -1,6 +1,6 @@
 const getPaddingString =(givenString,givenFinalLentgh,fillingElement)=>{
     debugger;
-     if (givenString.lentgh === givenFinalLentgh){
+     if (givenString.split('').lentgh === givenFinalLentgh){
          return givenString;
      } else if (givenString.lentgh >= givenFinalLentgh){
          let word;
