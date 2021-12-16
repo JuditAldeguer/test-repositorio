@@ -1,10 +1,12 @@
-const getSquareArea = () => {
-    return 1;
+/* que recibe un número que indica el lado del cuadrado y retorna el área del mismo.*/
+const getSquareArea = (c) => {
+    return c*c;
 };
 getSquareArea();
-/* que recibe un número que indica el lado del cuadrado y retorna el área del mismo.*/
 
-const getSquareTriangle =()=>{};
+const getSquareTriangle =(b,a)=>{
+
+};
 getSquareTriangle();
 /*  Este fichero debe tener otra función llamada  que recibe un número con la base y otro con la altura del triángulo y retorna el área del mismo.
 
