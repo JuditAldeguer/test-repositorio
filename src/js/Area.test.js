@@ -9,7 +9,7 @@ describe("Testing Area component", ()=> {
         expect(result).toBe(9);
     });
     test("getSquareTriangle(3,4) equals 6", ()=>{
-        const result = Area.getSquareArea(3,4);
+        const result = Area.getSquareTriangle(3,4);
         console.log(result);
         expect(result).toBe(6);
     });
