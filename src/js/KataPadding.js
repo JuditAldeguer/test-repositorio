@@ -3,10 +3,12 @@ const getPaddingString =(givenString,givenFinalLentgh,fillingElement)=>{
      if (givenString.lentgh === givenFinalLentgh){
          return givenString;
      } else if (givenString.lentgh >= givenFinalLentgh){
-        const givenLetter = givenString.split('');
-        for (let i = 0; i < givenString.length; i++) {
-            const element = array[i];
-            
+         let word;
+        const givenLetters = givenString.split('', givenFinalLentgh);
+        for (let i = 0; i < givenLetters.length; i++) {
+            const letter = givenLetters[i];
+            word += letter;
+            return word;
         }
      }
 };

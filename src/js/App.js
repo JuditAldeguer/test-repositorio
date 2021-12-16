@@ -1,6 +1,7 @@
 import logo from '../logo.svg';
 import '../css/App.css';
 import MenuItem from './MenuItem';
+import kata from './kataPadding';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+        Hola, {kata('hola', 6, 'x')}
+      </main>
     </div>
   );
 }

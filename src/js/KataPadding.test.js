@@ -1,9 +1,9 @@
 import "@testing-library/jest-dom/extend-expect";
 import { prettyDOM } from "@testing-library/dom";
 import { render, screen } from "@testing-library/react";
-import kata from "./KataPadding";
+import kata from "./kataPadding";
 
-describe("Testing KataPading component",()=>{
+describe("Testing KataPading functionality",()=>{
     test("paddingLeft('hola', 6, 'x') devuelve 'xxhola'", ()=>{
         const result = kata('hola', 6, 'x');
         console.log(result);
