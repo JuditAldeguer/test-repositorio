@@ -28,4 +28,7 @@ describe("Testing KataPading functionality",()=>{
     test("paddingLeft('xxxx', 0, 'x') devuelve 'xxxx'", ()=>{
         expect(kata('xxxx', 0, 'x')).toBe('xxxx');
     });
+    test("paddingLeft('xxxx', , 'x') devuelve 'xxxx'", ()=>{
+        expect(kata('xxxx', "", 'x')).toBe('xxxx');
+    });
 });
