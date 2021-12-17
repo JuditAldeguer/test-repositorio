@@ -10,7 +10,10 @@ describe("Testing KataPading functionality",()=>{
         const result = kata('hola', 6, 'a');
         expect(result).toBe('aahola');
     });
-
+    test("paddingLeft('ee', 4, 'aa') devuelve 'aaee'",()=>{
+        const result = kata('ee', 4, 'aa');
+        expect(result).toBe('aaee');
+    });
 
 
 /* 
