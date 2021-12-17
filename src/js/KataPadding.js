@@ -13,7 +13,7 @@ const getPaddingString = (word, finalLentgh, fillingElement) => {
       return neWord;
     }
   } else {
-    let filling;
+    let filling='';
     for (let i = 0; i < (finalLentgh-wordLenght); i++) {
       debugger;
       filling += fillingElement;
