@@ -6,12 +6,14 @@ describe("Testing KataPading functionality",()=>{
         const result = kata('hola', 6, 'x');
         expect(result).toBe('xxhola');
     });
-
+    test("paddingLeft('hola', 6, 'a') devuelve 'aahola'", ()=>{
+        const result = kata('hola', 6, 'a');
+        expect(result).toBe('aahola');
+    });
 
 
 
 /* 
-paddingLeft('hola', 6, 'a') devuelve 'aahola'
 paddingLeft('ee', 4, 'aa') devuelve 'aaee'
 paddingLeft('xxxx', 6, 'x') devuelve 'xxxxxx'
 paddingLeft('', 6, 'x') devuelve 'xxxxxx'
