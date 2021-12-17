@@ -17,7 +17,6 @@ describe("Testing KataPading functionality",()=>{
 
 
 /* 
-paddingLeft('ee', 4, 'aa') devuelve 'aaee'
 paddingLeft('xxxx', 6, 'x') devuelve 'xxxxxx'
 paddingLeft('', 6, 'x') devuelve 'xxxxxx'
 paddingLeft('hola mi amigo', 6, 'x') devuelve 'hola mi amigo'
