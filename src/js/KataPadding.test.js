@@ -23,8 +23,7 @@ describe("Testing KataPading functionality",()=>{
         expect(result).toBe('xxxxxx');
     });
     test("paddingLeft('hola mi amigo', 6, 'x') devuelve 'hola mi amigo'",()=>{
-        const result = kata('hola mi amigo', 6, 'x');
-        expect(result).toBe('hola mi amigo');
+        expect(kata('hola mi amigo', 6, 'x')).toBe('hola mi amigo');
     });
 /* 
 paddingLeft('xxxx', 0, 'x') devuelve 'xxxx' */
