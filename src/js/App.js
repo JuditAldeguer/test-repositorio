@@ -25,7 +25,7 @@ function App() {
         </a>
       </header>
       <main>
-        Hola, {kata('xxxx', 'x')}
+        Hola, {kata('xxxx', 0, 'x')}
       </main>
     </div>
   );
