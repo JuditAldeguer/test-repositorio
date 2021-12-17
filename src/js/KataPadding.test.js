@@ -25,7 +25,7 @@ describe("Testing KataPading functionality",()=>{
     test("paddingLeft('hola mi amigo', 6, 'x') devuelve 'hola mi amigo'",()=>{
         expect(kata('hola mi amigo', 6, 'x')).toBe('hola mi amigo');
     });
-/* 
-paddingLeft('xxxx', 0, 'x') devuelve 'xxxx' */
-
+    test("paddingLeft('xxxx', 0, 'x') devuelve 'xxxx'", ()=>{
+        expect(kata('xxxx', 0, 'x')).toBe('xxxx');
+    });
 });
