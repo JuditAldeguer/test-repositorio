@@ -18,7 +18,7 @@ const getPaddingString = (word, finalLentgh, fillingElement) => {
       debugger;
       filling += fillingElement;
       console.log(filling);
-      neWord = word + filling;
+      neWord = filling + word;
       console.log(neWord);
     }
     return neWord;
