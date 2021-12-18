@@ -22,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Se the Repository
+          See more in the Repository
         </a>
       </header>
       <main>
