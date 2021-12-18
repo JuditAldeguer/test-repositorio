@@ -1,6 +1,6 @@
 /* Al testear un fichero de JavaScript (y no un componente de React), no es necesario importar import { render, screen } from '@testing-library/react';. */
 import "@testing-library/jest-dom/extend-expect";
-import area from "./area";
+import area from "../services/area";
 
 describe("Testing area functionality", ()=> {
     test("getSquareArea(3) equals 9", ()=> {

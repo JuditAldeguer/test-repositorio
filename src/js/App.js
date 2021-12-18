@@ -1,7 +1,7 @@
 import logo from '../logo.svg';
 import '../css/App.css';
 import MenuItem from './MenuItem';
-import kata from './kataPadding';
+import kata from '../services/kataPadding';
 
 function App() {
   return (

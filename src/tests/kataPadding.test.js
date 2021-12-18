@@ -1,5 +1,5 @@
 import "@testing-library/jest-dom/extend-expect";
-import kata from "./kataPadding";
+import kata from "../services/kataPadding";
 
 describe("Testing KataPading functionality",()=>{
     test("paddingLeft('hola', 6, 'x') devuelve 'xxhola'", ()=>{

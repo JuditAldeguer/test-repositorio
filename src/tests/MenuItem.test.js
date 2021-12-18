@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom/extend-expect";
 import { prettyDOM } from "@testing-library/dom";
 import { render, screen } from "@testing-library/react";
-import MenuItem from "./MenuItem.js";
+import MenuItem from "../js/MenuItem";
 
 describe("Testando componente MenuItem", () => {
   test("chequear que si recibe _blank como props", () => {
