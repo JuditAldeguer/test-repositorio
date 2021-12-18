@@ -2,6 +2,7 @@ import logo from '../logo.svg';
 import '../css/App.css';
 import MenuItem from './MenuItem';
 import kata from '../services/kataPadding';
+import area from '../services/area';
 
 function App() {
   return (
@@ -16,16 +17,17 @@ function App() {
         </nav>
       
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className="Repository-link"
+          href="https://github.com/JuditAldeguer/test-repository"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Se the Repository
         </a>
       </header>
       <main>
-        Hola, {kata('xxxx', 0, 'x')}
+        Test Kata: {kata('xxxx', 0, 'x')}
+        Test Area: {area.getSquareTriangle(3,4)}
       </main>
     </div>
   );
